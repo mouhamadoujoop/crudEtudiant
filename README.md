@@ -11,3 +11,4 @@ createStudents(Studentdto studentdto) crée un nouvel étudiant en utilisant les
 deleteStudent(Long id) supprime un étudiant en fonction de son ID.
 @PathVariable est utilisé pour extraire les paramètres de l'URL de la requête.
 @requestbody indique que les données JSON de la requête doivent être désérialisées dans l'objet Studentdto.
+# On utilise Postman pour faire le test  de nos methodes
